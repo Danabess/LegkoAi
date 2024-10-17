@@ -71,7 +71,7 @@ const Intro = () => {
   const LabelsList = [LentaLogo, VcLogo, HabrLogo, RbkLogo];
 
   return (
-    <Section className="section_container relative lg:pt-16 md:pt-10 pt-3 after:absolute after:-bottom-0 after:left-0 after:w-full after:h-[2px] after:bg-lightGreen after:rounded-full">
+    <Section className="section_container relative min-[850px]:mt-[96px] max-[850px]:mt-[88px] max-md:mt-[76px] lg:pt-16 md:pt-10 pt-3 after:absolute after:-bottom-0 after:left-0 after:w-full after:h-[2px] after:bg-lightGreen after:rounded-full">
       <div className="flex gap-10 md:flex-row flex-col-reverse">
         <div className="flex flex-col justify-center md:text-start text-center lg:gap-8 md:gap-6 gap-5">
           <SectionTitle>

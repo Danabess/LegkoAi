@@ -11,7 +11,7 @@ import Sponsors from "./components/Sponsors";
 
 export default function App() {
   return (
-    <div className="">
+    <div className="relative">
       <Header />
       <Intro />
       <Features></Features>
