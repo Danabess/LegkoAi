@@ -7,7 +7,7 @@ import { IoCloseOutline } from "react-icons/io5";
 const Header = () => {
   const [activeMenu, setActiveMenu] = useState(false);
 
-  const navLinksList = ["Решения", "Интеграции", "Кейсы", "Вебинары"];
+  const navLinksList = ["Solutions", "Integrations", "Cases", "Webinars"];
 
   const handleMenu = () => {
     setActiveMenu(!activeMenu);
@@ -41,7 +41,7 @@ const Header = () => {
               ))}
             </ul>
           </nav>
-          <Button btnContent="Обсудить проект" className="hover:bg-sky-500 hover:border-sky-500" dark hidden />
+          <Button btnContent="Discuss the project" className="hover:bg-sky-500 hover:border-sky-500" dark hidden />
           <div className="md:hidden cursor-pointer z-10" onClick={handleMenu}>
             {!activeMenu ? <RxHamburgerMenu size={20} /> : <IoCloseOutline size={20} />}
           </div>

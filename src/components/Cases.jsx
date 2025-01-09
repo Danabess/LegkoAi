@@ -7,38 +7,37 @@ import casesImg_3 from "../assets/images/cases/cases-3.png";
 const Cases = () => {
   const casesList = [
     {
-      title: "Рога и копыта",
-      subtitle: "Мясокомбинат",
+      title: "Horns and hooves",
+      subtitle: "Meat processing plant",
       description:
-        "Выявили неэффективные каналы привлечения клиентиов, нашли и проанализировали ошибки менеджеров по продажам",
-      conclusion: "в итоге получили",
+        "We identified ineffective customer acquisition channels, found and analyzed the mistakes of sales managers",
+      conclusion: "in the end we got it",
       result: "ROI 364%",
       imgUrl: casesImg_1,
     },
     {
-      title: "Темщики",
-      subtitle: "Сидят в сити",
-      description:
-        "Устранили неравномерное распределение работчей нагрузки на менеджеров, увеличили производительность команды",
-      conclusion: "рост производительности",
+      title: "Startups",
+      subtitle: "They are sitting in the city",
+      description: "Eliminated uneven distribution of workload among managers, increased team productivity",
+      conclusion: "productivity growth",
       result: "68%",
       imgUrl: casesImg_2,
     },
     {
-      title: "Брокер с Уолл Стрит",
-      subtitle: "Производство водных насосов",
+      title: "Wall Street Broker",
+      subtitle: "Water pump manufacturing",
       description:
-        "Создали прозрачную и удобную отчетность. Устранили микро-менеджмент и увеличили продажи при помощи речевой аналитики",
-      conclusion: "рост продаж",
+        "Created transparent and convenient reporting. Eliminated micro-management and increased sales using speech analytics",
+      conclusion: "sales growth",
       result: "+113%",
       imgUrl: casesImg_3,
     },
   ];
 
   return (
-    <Section id="Кейсы" className="bg-lightGreen">
+    <Section id="Cases" className="bg-lightGreen">
       <div className="section_container flex flex-col items-center">
-        <h2 className="font-semibold">Кейсы наших 🚀 клиентов</h2>
+        <h2 className="font-semibold">Cases of our 🚀 clients</h2>
         <div className="my-[60px] w-full">
           <div className="flex gap-y-7 max-lg:flex-wrap">
             {casesList.map((item) => {
@@ -63,7 +62,7 @@ const Cases = () => {
                         <p className="font-Gilroy font-medium leading-[1.1] text-[32px]">{item.result}</p>
                       </div>
                       <Button
-                        btnContent="Подробнее о проекте"
+                        btnContent="More about the project"
                         dark
                         className="hover:border-lightGreen hover:text-dark hover:bg-lightGreen w-full px-0"
                       />
@@ -77,7 +76,7 @@ const Cases = () => {
         <Button
           btnContent={
             <div className="flex items-center">
-              <span>Все кейсы</span>
+              <span>All cases</span>
               <div className=" rotate-180 translate-x-[6px]">
                 <svg width="14" height="14" viewBox="0 0 9 15" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path

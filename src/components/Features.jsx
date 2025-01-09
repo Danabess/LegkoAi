@@ -19,22 +19,23 @@ const Features = () => {
 
   const FeaturesSlidesList = [
     {
-      name: "Продажи",
-      description: "Найди новые точки роста и увличь конверсию в продажу за счет Ad Hoc анализа сейлз процессов.",
+      name: "Sales",
+      description:
+        "Find new growth points and increase conversion into sales through Ad Hoc analysis of sales processes.",
       ImgList: [SalesImg_1, SalesImg_2, SalesImg_3],
-      LinksList: ["Автоворонки", "Чат-боты", "Речевая аналитика"],
+      LinksList: ["Autofunnels", "Chatbots", "Speech analytics"],
     },
     {
-      name: "Маркетинг и реклама",
-      description: "Экономь на неэффективной рекламе и привлекай больше продаж по меньшей стоимости.",
+      name: "Marketing and advertising",
+      description: "Save on ineffective advertising and attract more sales at a lower cost.",
       ImgList: [MarketingImg_1, MarketingImg_2, MarketingImg_3],
-      LinksList: ["AI-аналитика", "Креативы и копирайтинг", "Аудит сайта"],
+      LinksList: ["AI Analytics", "Creatives and Copywriting", "Website Audit"],
     },
     {
-      name: "Проектный менеджмент",
-      description: "Сокарти время на рутинные задачи, увеличь производительность и прозрачность процессов.",
+      name: "Project management",
+      description: "Save time for routine tasks, increase productivity and process transparency.",
       ImgList: [ManagementImg_1, ManagementImg_2, ManagementImg_3],
-      LinksList: ["Авто репорты", "Анализ производительности", "Чат-боты"],
+      LinksList: ["Auto reports", "Performance analysis", "Chat bots"],
     },
   ];
 
@@ -50,10 +51,10 @@ const Features = () => {
   });
 
   return (
-    <Section id="Решения" className="section_container">
+    <Section id="Solutions" className="section_container">
       <SectionTitle className="text-center mb-12">
-        Как AI <SpecialText>поможет</SpecialText> <br />
-        твоему бизнесу?
+        How AI <SpecialText>will help</SpecialText> <br />
+        your business?
       </SectionTitle>
       <div className="relative">
         <div className="xl:max-w-[1040px] lg:max-w-[824px] m-auto flex lg:flex-row lg:overflow-hidden flex-col md:gap-y-5 gap-y-3">

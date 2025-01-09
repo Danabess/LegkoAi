@@ -8,14 +8,14 @@ const Economy = () => {
     <Section>
       <div className="flex flex-col items-center text-center">
         <SectionTitle>
-          Сэкономил - <br />
-          <SpecialText>заработал</SpecialText>
+          Saved - <br />
+          <SpecialText>earned</SpecialText>
         </SectionTitle>
         <p className="font-Gilroy font-medium xl:text-[48px] md:text-[34px] text-[20px] md:leading-none leading-[1.1] max-w-[900px] lg:mb-8 lg:mt-16 md:mb-7 md:mt-11 mb-6 mt-6 px-4">
-          Делегируй рутину искусственному 🦾 интеллекту и сфокусируйся на приоритетных задачах 🦸
+          Delegate routine tasks to artificial 🦾 intelligence and focus on priority tasks 🦸
         </p>
         <Button
-          btnContent="Обсудить проект"
+          btnContent="Discuss the project"
           dark
           className="hover:border-lightGreen hover:text-dark hover:bg-lightGreen"
         />

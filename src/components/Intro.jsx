@@ -15,9 +15,9 @@ const Intro = () => {
   const [blockTransform, setBlockTransform] = useState(0);
 
   const [sloganList] = useState([
-    "Контролируй эффективность своего бизнеса и получай ежедневные отчеты",
-    "Продавай больше с AI скорингом заявок и аудитом записаных звонков",
-    "Сократи расходы на неэффективные каналы и найди новые точки роста",
+    "Monitor your business performance and receive daily reports",
+    "Sell ​​more with AI scoring of applications and audit of recorded calls",
+    "Reduce costs on ineffective channels and find new growth points",
   ]);
 
   useEffect(() => {
@@ -34,7 +34,9 @@ const Intro = () => {
       value: "30%",
       text: (
         <span>
-          рост capacity за счет <br /> оптимизации рутины
+          capacity growth due
+          <br />
+          to routine optimization
         </span>
       ),
       icon: "🚀",
@@ -43,7 +45,9 @@ const Intro = () => {
       value: "15+",
       text: (
         <span>
-          успешных <br /> кейсов
+          successful
+          <br />
+          cases
         </span>
       ),
       icon: "🏅",
@@ -52,7 +56,9 @@ const Intro = () => {
       value: "30%",
       text: (
         <span>
-          команды можно <br /> заменить AI
+          commands can be
+          <br />
+          replaced by AI
         </span>
       ),
       icon: "🤖",
@@ -61,7 +67,9 @@ const Intro = () => {
       value: "5.000.000",
       text: (
         <span>
-          в год в среднем экономят <br /> наши клиенты
+          Our clients save on
+          <br />
+          average per year
         </span>
       ),
       icon: "🏦",
@@ -75,7 +83,7 @@ const Intro = () => {
       <div className="flex gap-10 md:flex-row flex-col-reverse">
         <div className="flex flex-col justify-center md:text-start text-center lg:gap-8 md:gap-6 gap-5">
           <SectionTitle>
-            С AI <SpecialText>легко</SpecialText>
+            With AI <SpecialText>is simple</SpecialText>
           </SectionTitle>
           <div className="overflow-hidden min-[995px]:max-h-[60px] min-[810px]:max-h-[45px] sm:max-h-[53px] max-h-[39px] ">
             <div className="flex flex-col z-0" style={{ transform: `translateY(${blockTransform}%)` }}>
@@ -91,12 +99,12 @@ const Intro = () => {
           </div>
           <div className="flex lg:gap-4 gap-2 lg:flex-row flex-col">
             <Button
-              btnContent="Записаться на вебинар"
+              btnContent="Sign up for the webinar"
               wide
               className="hover:bg-lightGreen hover:border-lightGreen hover:text-dark"
               dark
             />
-            <Button btnContent="Узнать больше" className="hover:bg-lightGreen hover:border-lightGreen" transparent />
+            <Button btnContent="Find out more" className="hover:bg-lightGreen hover:border-lightGreen" transparent />
           </div>
         </div>
         <div className="flex">
@@ -133,7 +141,7 @@ const Intro = () => {
       <div className="flex flex-row justify-center">
         <div className="flex flex-row items-center lg:gap-20 md:gap-12 gap-3">
           <p className="font-LTSuperior font-bold lg:text-[18px] md:text-[16px] text-[14px] relative before:absolute lg:before:-left-[18px] md:before:-left-[15px] before:-left-[12px] before:top-0 before:h-full before:w-[2px] before:rounded-full before:bg-lightGreen">
-            О нас пишут:
+            They write about us:
           </p>
           <div className="flex flex-row lg:gap-12 md:gap-9 gap-6">
             {LabelsList.map((item) => {

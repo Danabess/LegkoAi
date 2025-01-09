@@ -63,25 +63,25 @@ const Footer = () => {
             </div>
           </div>
           <div className="grid grid-cols-2 gap-y-2 gap-x-6 max-sm:flex">
-            <a href="#Решения" className="sm:order-1 hover:underline">
-              Решения
+            <a href="#Solutions" className="sm:order-1 hover:underline">
+              Solutions
             </a>
-            <a href="#Интеграции" className="sm:order-3 hover:underline">
-              Интеграции
+            <a href="#Integrations" className="sm:order-3 hover:underline">
+              Integrations
             </a>
-            <a href="#Кейсы" className="sm:order-2 hover:underline">
-              Кейсы
+            <a href="#Cases" className="sm:order-2 hover:underline">
+              Cases
             </a>
-            <a href="#Вебинары" className="sm:order-4 hover:underline">
-              Вебинары
+            <a href="#Webinars" className="sm:order-4 hover:underline">
+              Webinars
             </a>
           </div>
           <div className="flex flex-col gap-y-2">
             <a href="" className="hover:underline">
-              Условия использования
+              Terms of Use
             </a>
             <a href="" className="hover:underline">
-              Политика конфеденциальности
+              Privacy Policy
             </a>
           </div>
           <div className="flex gap-x-2">

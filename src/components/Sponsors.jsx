@@ -37,13 +37,13 @@ const Sponsors = () => {
     <Section>
       <div className="section_container">
         <SectionTitle className="max-[960px]:text-center">
-          <SpecialText>Даже не думай</SpecialText> нанимать дорогих разроботчиков
+          <SpecialText>Don't even think</SpecialText> about hiring expensive developers
         </SectionTitle>
         <div className="flex lg:mt-[60px] md:mt-[39px] mt-[18px] justify-around items-center max-[960px]:flex-col gap-y-8">
           <h2 className="min-[960px]:max-w-[530px] max-[960px]:text-center max-[476px]:text-[20px]">
-            Мы интегрируемся 🧑‍🔧 со всеми основными сервисами{" "}
+            We integrate 🧑‍🔧 with all major services{" "}
             <SpecialText small extraSmall>
-              в два клика
+              in two clicks
             </SpecialText>
           </h2>
           <div className="flex flex-wrap justify-center max-w-[500px] max-[960px]:max-w-[400px] lg:gap-x-10 lg:gap-y-5 md:gap-x-6 gap-x-3 gap-y-4">

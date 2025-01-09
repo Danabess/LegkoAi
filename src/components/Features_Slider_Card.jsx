@@ -22,7 +22,7 @@ const FeaturesSliderCard = ({ FeatureSlideItem, imgIndex }) => {
           <p className="font-LTSuperior font-medium xl:text-[18px] sm:text-[16px] text-[14px] leading-[1.1] mt-3 xl:mb-8 lg:mb-4 md:mb-8 mb-4">
             {FeatureSlideItem.description}
           </p>
-          <Button btnContent="Хочу кейс" className="hover:bg-sky-500 hover:border-sky-500 md:block hidden" dark />
+          <Button btnContent="Want a case" className="hover:bg-sky-500 hover:border-sky-500 md:block hidden" dark />
         </div>
         <div className="flex flex-col md:w-2/3 md:pl-16 h-full">
           <div className="flex overflow-hidden">
@@ -48,7 +48,7 @@ const FeaturesSliderCard = ({ FeatureSlideItem, imgIndex }) => {
             ))}
           </ul>
         </div>
-        <Button btnContent="Хочу кейс" className="hover:bg-sky-500 hover:border-sky-500 md:hidden w-full" dark />
+        <Button btnContent="Want a case" className="hover:bg-sky-500 hover:border-sky-500 md:hidden w-full" dark />
       </div>
     </article>
   );
