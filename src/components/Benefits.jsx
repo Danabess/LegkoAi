@@ -25,7 +25,9 @@ const Benefits = () => {
       <div className="section_container flex md:flex-row flex-col items-center justify-between gap-10 max-h-[800px]">
         <div className="z-10 md:pl-[90px] max-md:flex max-md:flex-col max-md:items-center">
           <SectionTitle className="text-nowrap max-md:text-center">
-            И это еще <br /> не все
+            And that's
+            <br />
+            not all
           </SectionTitle>
           <div className="flex flex-col gap-9 mt-[60px] mb-[37px] max-md:mb-[24px] max-md:mt-[350px] max-sm:mt-[250px]">
             {benefitsList.map((item) => {

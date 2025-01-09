@@ -72,7 +72,7 @@ const Motivation = () => {
               <div className="">
                 <h3 className="mb-4 text-nowrap">
                   You can save:
-                  <span className="inline-block max-[1170px]:block font-bold w-[171px]">{rangeValue * 0.3} руб.</span>
+                  <span className="inline-block max-[1170px]:block font-bold w-[171px]">{rangeValue * 0.3} $</span>
                 </h3>
                 <p className="font-LTSuperior font-medium xl:text-[18px] md:text-[16px] text-[14px] leading-[1.1]">
                   Want the same result? Leave your email and we will contact you
