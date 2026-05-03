@@ -43,7 +43,7 @@
 
 @layer base {
   * {
-    @apply scroll-smooth;
+    @apply scroll-smooth lg:scroll-p-[120px] md:scroll-p-[108px] scroll-p-[96px];
   }
 
   html {

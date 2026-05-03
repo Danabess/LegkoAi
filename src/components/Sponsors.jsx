@@ -3,34 +3,32 @@ import SpecialText from "./SpecialText";
 import SectionTitle from "./Section_Title";
 
 import icon_1C from "../assets/images/sponsors/1C.svg";
-import icon_AmoCRM from "../assets/images/sponsors/amocrm.svg";
-import icon_Bitrix from "../assets/images/sponsors/bitrix.svg";
-import icon_CallTouch from "../assets/images/sponsors/calltouch.svg";
+import icon_akamai from "../assets/images/sponsors/akamai.svg";
+import icon_reddit from "../assets/images/sponsors/reddit.svg";
+import icon_amazon from "../assets/images/sponsors/amazon.svg";
 import icon_GoogleSheets from "../assets/images/sponsors/google-sheets.svg";
-import icon_Mango from "../assets/images/sponsors/mango.svg";
-import icon_MyTar from "../assets/images/sponsors/mytar.svg";
-import icon_Roistat from "../assets/images/sponsors/roistat.svg";
+import icon_behance from "../assets/images/sponsors/behance.svg";
+import icon_apple from "../assets/images/sponsors/apple.svg";
+import icon_forbes from "../assets/images/sponsors/forbes.svg";
 import icon_Slack from "../assets/images/sponsors/Slack.svg";
 import icon_Telegram from "../assets/images/sponsors/tg.svg";
-import icon_VK from "../assets/images/sponsors/vk.svg";
+import icon_facebook from "../assets/images/sponsors/facebook.svg";
 import icon_WordPress from "../assets/images/sponsors/wp.svg";
-import icon_YandexMetrika from "../assets/images/sponsors/yandex-metrika.svg";
 
 const Sponsors = () => {
   const iconsList = [
-    icon_Bitrix,
+    icon_akamai,
     icon_1C,
-    icon_AmoCRM,
-    icon_YandexMetrika,
+    icon_reddit,
+    icon_facebook,
     icon_Telegram,
     icon_GoogleSheets,
     icon_Slack,
-    icon_MyTar,
-    icon_VK,
+    icon_behance,
+    icon_forbes,
     icon_WordPress,
-    icon_CallTouch,
-    icon_Mango,
-    icon_Roistat,
+    icon_amazon,
+    icon_apple,
   ];
 
   return (

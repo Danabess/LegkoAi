@@ -25,15 +25,13 @@ const BusinessCard = () => {
                 </h3>
                 <div className="lg:hidden h-[2px] w-full bg-lightGreen my-6"></div>
                 <div className="lg:hidden flex mb-6 gap-3">
-                  <img src={SpeakerPhoto} alt="SpeakerImg" className="rounded-[12px] md:size-[120px] size-[78px]" />
+                  <img src={SpeakerPhoto} alt="SpeakerImg" className="rounded-[12px] md:size-[120px] size-[78px] object-cover" />
                   <div className="flex flex-col font-Gilroy font-medium text-[14px]">
                     <p className="mb-auto font-RobotoMono uppercase text-dark">Speaker</p>
                     <div className="">
-                      <h3 className="capitalize text-dark text-[20px]">Vitaliy Makarenko</h3>
+                      <h3 className="capitalize text-dark text-[20px]">Peter Wayles</h3>
                       <p className="text-gray-500">
-                        A genius of thought,
-                        <br />
-                        the father of Russian democracy
+                        A genius of thought
                       </p>
                     </div>
                   </div>
@@ -56,16 +54,16 @@ const BusinessCard = () => {
                   className="hover:text-white hover:bg-sky-500 hover:border-sky-500 lg:self-start max-lg:px-14 self-center"
                 />
               </div>
-              <div className="w-[2px] h-[320px] bg-lightGreen mx-auto max-lg:hidden"></div>
-              <div className="h-full flex items-center max-lg:hidden">
+              <div className="w-[2px] h-[320px] bg-lightGreen ml-auto max-lg:hidden"></div>
+              <div className="h-full flex items-center mr-auto max-lg:hidden">
                 <div className="h-full">
                   <p className="uppercase font-RobotoMono text-[16px] leading-none">Speaker</p>
                   <div className="">
-                    <img src={SpeakerPhoto} alt="SpeakerImg" className="rounded-[12px] my-4 size-[162px]" />
+                    <img src={SpeakerPhoto} alt="SpeakerImg" className="rounded-[12px] my-4 size-[162px] object-cover" />
                     <div className="">
-                      <h3>Vitaliy Makarenko</h3>
+                      <h3>Peter Wayles</h3>
                       <p className="font-Gilroy text-[18px] leading-[1.1] text-gray-500 pt-1">
-                        A genius of thought, the father of Russian democracy
+                        A genius of thought
                       </p>
                     </div>
                   </div>

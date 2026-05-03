@@ -4,10 +4,10 @@ import SpecialText from "./SpecialText";
 import SectionTitle from "./Section_Title";
 import MainImg from "../assets/images/intro/Main_img.png";
 import MainImgSmall from "../assets/images/intro/Main_img_small.png";
-import HabrLogo from "../assets/images/intro/Habr_logo.svg";
-import LentaLogo from "../assets/images/intro/Lenta_logo.svg";
-import RbkLogo from "../assets/images/intro/Rbk_logo.svg";
-import VcLogo from "../assets/images/intro/Vc_logo.svg";
+import Facebook_Logo from "../assets/images/intro/Facebook_Logo.svg";
+import BBC_logo from "../assets/images/intro/BBC_logo.svg";
+import CNN_logo from "../assets/images/intro/CNN_logo.svg";
+import Reddit_logo from "../assets/images/intro/Reddit_logo.svg";
 import Button from "./Button";
 
 const Intro = () => {
@@ -76,7 +76,7 @@ const Intro = () => {
     },
   ];
 
-  const LabelsList = [LentaLogo, VcLogo, HabrLogo, RbkLogo];
+  const LabelsList = [Facebook_Logo, BBC_logo, CNN_logo, Reddit_logo];
 
   return (
     <Section className="section_container relative min-[850px]:mt-[96px] max-[850px]:mt-[88px] max-md:mt-[76px] lg:pt-16 md:pt-10 pt-3 after:absolute after:-bottom-0 after:left-0 after:w-full after:h-[2px] after:bg-lightGreen after:rounded-full">
@@ -116,20 +116,17 @@ const Intro = () => {
           return (
             <div
               key={AchivmentsList.indexOf(item)}
-              className={`flex md:justify-normal justify-between items-center md:bg-transparent md:p-0 ${
-                (AchivmentsList.indexOf(item) + 1) % 2 ? "bg-dark" : "bg-lightGreen"
-              } p-8 md:rounded-none rounded-[16px]`}>
+              className={`flex md:justify-normal justify-between items-center md:bg-transparent md:p-0 ${(AchivmentsList.indexOf(item) + 1) % 2 ? "bg-dark" : "bg-lightGreen"
+                } p-8 md:rounded-none rounded-[16px]`}>
               <div className="flex flex-col">
                 <h3
-                  className={`md:text-lightGreen ${
-                    (AchivmentsList.indexOf(item) + 1) % 2 ? "text-lightGreen" : "text-dark"
-                  } font-Gilroy font-medium lg:text-[48px] md:text-[40px] text-[32px]`}>
+                  className={`md:text-lightGreen ${(AchivmentsList.indexOf(item) + 1) % 2 ? "text-lightGreen" : "text-dark"
+                    } font-Gilroy font-medium lg:text-[48px] md:text-[40px] text-[32px]`}>
                   {item.value}
                 </h3>
                 <p
-                  className={`md:text-white ${
-                    (AchivmentsList.indexOf(item) + 1) % 2 ? "text-white" : "text-dark"
-                  } font-LTSuperior font-medium leading-[1.1] lg:text-[18px] md:text-[16px] text-[14px]`}>
+                  className={`md:text-white ${(AchivmentsList.indexOf(item) + 1) % 2 ? "text-white" : "text-dark"
+                    } font-LTSuperior font-medium leading-[1.1] lg:text-[18px] md:text-[16px] text-[14px]`}>
                   {item.text}
                 </p>
               </div>
@@ -149,7 +146,7 @@ const Intro = () => {
                 <img
                   src={item}
                   key={LabelsList.indexOf(item)}
-                  className={`lg:max-h-[18px] md:max-h-[15px] max-h-[11px]`}
+                  className={`lg:max-h-[2.5rem] max-h-[1.5rem]`}
                 />
               );
             })}
