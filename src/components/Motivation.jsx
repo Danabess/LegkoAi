@@ -4,7 +4,12 @@ import Button from "./Button";
 import { useEffect, useState } from "react";
 
 const Motivation = () => {
-  const defaultRangeValue = 500000;
+  const maxRangeValue = 1000000;
+  const minRangeValue = 10000;
+  const step = 10000;
+  const defaultRangeValue = maxRangeValue / 2;
+
+
 
   const [rangeValue, setRangeValue] = useState(defaultRangeValue);
   const [rangeValueTextPosition, setRangeValueTextPosition] = useState(rangeValue / 10000);
@@ -22,11 +27,25 @@ const Motivation = () => {
 
   function changingRangeValue() {
     const rangeInputValue = document.getElementById("rangeInput").value;
+    const minValueArrowPosition = (maxRangeValue / 100 * 11);
+    const maxValueArrowPosition = (maxRangeValue / 100 * 88);
 
     setRangeValue(rangeInputValue);
     setRangeValueTextPosition(rangeInputValue / 10000);
-    setRangeValueArrowPosition(rangeValue / 10000);
     setRangeValueArrowTranslate(-(rangeValue / 10000));
+
+    if (rangeValue <= minValueArrowPosition) {
+      setRangeValueArrowPosition(minValueArrowPosition / step)
+      console.log("less")
+    } else if (rangeValue >= maxValueArrowPosition) {
+      console.log("higher")
+      setRangeValueArrowPosition(maxValueArrowPosition / step)
+    } else {
+      setRangeValueArrowPosition(rangeValue / step);
+    }
+
+    console.log(rangeValue)
+    console.log(minValueArrowPosition, maxValueArrowPosition)
   }
 
   return (
@@ -56,10 +75,10 @@ const Motivation = () => {
               <input
                 id="rangeInput"
                 type="range"
-                min="10000"
-                max="1000000"
+                min={minRangeValue}
+                max={maxRangeValue}
                 value={rangeValue}
-                step="1000"
+                step={step}
                 onInput={changingRangeValue}
                 className="w-full appearance-none h-[2px] bg-lightGreen thumb-custom"
               />
